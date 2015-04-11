@@ -1,13 +1,4 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="utf-8">
-		<title>Precio</title>
-		<link rel="stylesheet" type="text/css" href="bootstrap.css">
-
-
-		<style type="text/css">
-			html, body, div, span, applet, object, iframe,
+html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
@@ -48,35 +39,8 @@ q:before, q:after {
 }
 table {
   border-collapse: collapse;
-  border-spacing: none;
+  border-spacing: 0;
 }
-
-
-
-img
-{
-  float: left;
-  height: 20%;
-  width: 40%;
-  margin-left: 40px;
-}
-
-
-#lugar_datos
-{
-  width: 40%;
-  height:100%;
-  float: left;
-  background-color: white;
-  text-align: center;
-}
-
-table.table_precio
-{
-  border: 1;
-}
-
-
 img.ima
 {
   width: 15%;
@@ -90,7 +54,6 @@ img.ima
 }
 
 
-
 /*
   ========================================
   Custom styles
@@ -98,8 +61,8 @@ img.ima
 */
 
 body {
-  background: darkslategray;
-  color: darkslategray;
+  background: dimgray;
+  color: dimgray;
   font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
@@ -383,111 +346,3 @@ textarea {
 .register-group textarea {
   height: 78px;
 }
-th.ex
-{
-  text-align: center;
-}
-h2.ex
-{
-  text-align: center;
-}
-
-	</style>
-	</head>
-
-	<body>
-		<header>
-			<header class="primary-header container group">
-				<img src="images.jpg" class="ima" >
-        <h1 class="logo">
-					sistemas web
-				</h1>
-        
-        
-				<nav class="nav primary-nav">
-					<ul>
-						<li> <a href="clases.html">Clases</a> </li>
-						<li> <a href="lugar.html">Lugar</a></li>
-						<li> <a href="precio.html">Precio</a></li>
-						<li> <a href="registrarse.html">Registrarse</a></li>
-					</ul>
-
-				</nav>
-
-		</header>
-
-		<section class="row group">
-
-			<div class="container">
-			  <h2 class="ex">Precios de las clases</h2>            
-			  <table class="table table-bordered">
-			    <thead>
-			      <tr class="info">
-			        <th class="ex">clase</th>
-			        <th class="ex"></th>
-			        <th class="ex">horas</th>
-			        <th class="ex">precio</th>
-			      </tr>
-			    </thead>
-			    <tbody>
-			      <tr>
-			        <td> <b>html</b><br><b>por juan palotes</b> </td>
-			        <td>disponible </td>
-			        <td>10</td>
-			        <td>30.02$</td>
-			      </tr>
-			      <tr class="active">
-			        <td><b>CSS3</b><br><b>por juan palotes y pedro fernandez</b></td>
-			        <td>disponible</td>
-			        <td>20</td>
-			        <td>52.10$</td>
-			      </tr>
-			      <tr>
-			        <td><b>javacript</b><br><b>por juan palotes</b></td>
-			        <td>disponible</td>
-			        <td>40</td>
-			        <td>20.23$</td>
-			      </tr>
-			      <tr>
-			      	<td></td>
-			      	<td></td>
-			      	<td>subtotal</td>
-			      	<td>102.35$</td>
-			      </tr>
-			      <tr>
-			      	<td></td>
-			      	<td></td>
-			      	<td>Impuestos</td>
-			      	<td>13.05$</td>
-			      </tr>
-			      <tr class="warning">
-			      	<td></td>
-			      	<td></td>
-			      	<td>total</td>
-			      	<td>115.40$</td>
-			      </tr>
-			    </tbody>
-			  </table>
-			</div>		
-		</section>
-
-	</body>	
-
-
-	<footer class="primary-footer container group">
-
-      <small>&copy; Blog </small>
-
-      <nav class="nav">
-        <ul>
-          <li><a href="clases.html">Clases</a></li>
-          <li><a href="lugar.html">Lugar</a></li>
-          <li><a href="precio.html">Precio</a></li>
-          <li><a href="registrarse.html">Registrarse</a></li>
-        </ul>
-      </nav>
-
-    </footer>
-
-
-</html>

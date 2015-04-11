@@ -3,19 +3,22 @@
 
 <head>
  <meta charset="utf-8">
-    <title>SISTEMAS WEB</title>
+    <title>registrarse</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
+    <img src="examen.jpg" class="fija">
 </head>
 <body>
+
 
     <!-- Header -->
 
     <header class="primary-header container group">
 
-      <h1 class="logo">
-        <a href="index.html">SISTEMAS WEB</a>
-      </h1>
-
+        <img src="images.jpg" class="ima" >
+        <h1 class="logo">
+          SISTEMAS WEB
+        </h1>
+      
       <nav class="nav primary-nav">
         <ul>
           <li><a href="clases.html">Clases</a></li>
@@ -27,7 +30,7 @@
 
     </header>
 
-
+    
     <!-- Main content -->
 
     <section class="row group">
@@ -68,11 +71,20 @@
                 <option value="La Paz">La Paz</option>
                 <option value="Santa Cruz">Santa Cruz</option>
               </select>
+              <br>
+            </label>
+            <label>sexo
+                <input type="radio" value="male" name="masculino" checked>masculino
+                <input type="radio" value="female" name="femenino">femenino
+                <br>
+            </label>
+            <label>Color de polera
+              <input type="color"></input>
             </label>
 
             <label>
-              Comentarios
-              <textarea name="comments"></textarea>
+              Fecha de nacimiento
+              <input type="date"> </input>
             </label>
 
           </fieldset>

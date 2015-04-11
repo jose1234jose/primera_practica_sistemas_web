@@ -67,6 +67,27 @@ table.table_precio
   border: 1;
 }
 
+img.ima
+{
+  width: 15%;
+  height: 15%;
+  margin-top: 25px;
+  margin-bottom: 5px;
+  margin-right: 10px;
+  margin-left: 10px;
+  float: left;
+  border-top: 20px;
+}
+
+img.fija
+{
+  margin-top: 300px;
+  margin-left: 150px;
+  padding: 5px;
+  background-color: gray;
+  position: fixed;
+}
+
 
 /*
   ========================================
@@ -326,6 +347,8 @@ p a {
 */
 
 
+
+
 form {
   margin-bottom: 22px;
 }
@@ -351,7 +374,7 @@ textarea {
 }
 .register-group input,
 .register-group textarea {
-  width: 100%;
+  width: 50%;
 }
 .register-group select {
   height: 34px;
